@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Activity1">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D13438"
+        android:text="Activity 1 - Send value"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <!-- Ô nhập liệu -->
+    <EditText
+        android:id="@+id/value_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvHeader"
+        android:layout_marginTop="40dp"
+        android:hint="Nhập giá trị cần gửi..."
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Khu vực chứa nút, cố định ở đáy -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send to Activity 2"
+            android:backgroundTint="#D13438"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#CCE7FA"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Ví dụ sự kiện"
+        android:textColor="#007DBF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+        <Spinner
+            android:id="@+id/spnCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF0000"
+            android:padding="10dp"/>
+    </LinearLayout>
+</FrameLayout>

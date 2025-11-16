@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vidu</string>
+    <string-array name="branches">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>IT</item>
+        <item>Mech</item>
+    </string-array>
+</resources>

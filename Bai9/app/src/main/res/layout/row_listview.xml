@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Avatar -->
+    <TextView
+        android:id="@+id/tvAvatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#0288D1"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp" />
+
+    <!-- Thông tin sinh viên -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phạm Minh Huy"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMaSinhVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23115053122314"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
